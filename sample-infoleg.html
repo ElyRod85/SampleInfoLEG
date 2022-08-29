@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="sample-infoleg.css">
+  <script src="https://kit.fontawesome.com/1d8da103c1.js" crossorigin="anonymous"></script>
+  <title>InfoLEG - Portfolio Sample by Eleonora Rodriguez</title>
+</head>
+<body>
+  <header>
+    <nav>
+
+      <div class="nav-container">
+
+          <div class="nav1">
+            <span class="logo"><img src="./images/infoleg-logo.png"></span>
+            <span class="logo2"><img src="./images/minjust-logo.png"></span>
+          </div>
+        
+        <div class="nav2">
+          <ul>
+            <li><a href="#" class="active">Inicio</a></li>
+            <li><a href="#">Búsquedas</a></li>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="#">Mapa del Sitio</a></li>
+            <li><a href="#">Su Opinión</a></li>
+          </ul>
+        </div>
+
+        <div class="nav3" id="nav3">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa-solid fa-xmark fa-2xl"></i></a>
+          <div class="nav3-links">
+            <span class="logo"><img src="./images/infoleg-logo.png"></span>
+            <span class="logo2"><img src="./images/minjust-logo.png"></span>
+            <ul>
+              <li><a href="#" class="active">Inicio</a></li>
+              <li><a href="#">Búsquedas</a></li>
+              <li><a href="#">Acerca de</a></li>
+              <li><a href="#">Mapa del Sitio</a></li>
+              <li><a href="#">Su Opinión</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="nav4">
+          <i class="fa-solid fa-bars fa-2xl" onclick="openNav()"></i>
+        </div>
+
+      </div>
+
+
+    </nav>
+  </header>
+
+
+  <main>
+
+    <!-- SEARCH AND NEWS -->
+
+    <div class="flex-container">
+
+        <div class="box1">
+        <h1>Búsqueda por norma</h1>
+
+        <div class="form">
+          <form>
+            <label for="norma">Tipo de norma:</label>
+            <select id="norma" name="norma">
+              <option value="ley">Ley</option>
+              <option value="decreto">Decreto</option>
+              <option value="decadmin">Decisión Administrativa</option>
+              <option value="resolucion">Resolución</option>
+              <option value="disposicion">Disposición</option>
+              <option value="other">----------------------------</option>
+              <option value="acordada">Acordada</option>
+              <option value="acta">Acta</option>
+              <option value="actuacion">Actuación</option>
+              <option value="acuerdo">Acuerdo</option>
+              <option value="circular">Circular</option>
+              <option value="comunicacion">Comunicación</option>
+              <option value="comunicado">Comunicado</option>
+              <option value="convenio">Convenio</option>
+              <option value="decision">Decisión</option>
+              <option value="decley">Decreto/Ley</option>
+              <option value="directiva">Directiva</option>
+              <option value="instruccion">Instrucción</option>
+              <option value="interpretacion">Interpretación</option>
+              <option value="laudo">Laudo</option>
+              <option value="memorandum">Memorandum</option>
+              <option value="mision">Misión</option>
+              <option value="nota">Nota</option>
+              <option value="notaext">Nota Externa</option>
+              <option value="protocolo">Protocolo</option>
+              <option value="providencia">Providencia</option>
+              <option value="recomendacion">Recomendación</option>
+            </select>
+
+            <label for="numero">Número:</label>
+            <input type="number" id="numero" name="numero" required>
+
+            <label for="year">Año:</label>
+            <input type="number" id="year" name="year" min="1500" max="2024" required>
+
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+
+          <div class="search">
+            Búsqueda:<br> <a href="#">Por texto</a> | <a href="#">Por Boletín Oficial</a>
+          </div>
+
+        </div>
+
+        <div class="box2">
+          <h1>Novedades</h1>
+
+          <ul>
+            <li><a href="#">Ley 27.610:</a> Acceso a la interrupción voluntaria del embarazo</li>
+            <li><a href="#">Ley 27.555:</a> Régimen legal del contrato de teletrabajo</li>
+            <li><a href="#">Ley 27.551:</a> Ley de alquileres</li>
+            <li><a href="#">Ley 27.545:</a> Ley de góndolas</li>
+            <li><a href="#">Ley 27.605:</a> Aporte solidario y extraordinario para ayudar a morigerar los efectos de la pandemia</li>
+            <li><a href="#">Ley 27.609:</a> Índice de movilidad jubilatoria</li>
+            <li><a href="#">Ley 27.611:</a> Atención y cuidado integral de la salud durante el embarazo y la primera infancia</li>
+          </ul>
+        </div>
+    </div>
+
+    <div class="flex-container">
+      <div class="box3">
+        <a href="#">
+        <div class="box3-title">Digesto Emergencia Sanitaria Coronavirus COVID-19</div>
+        <div class="box3-desc">Normativa Actualizada</div>
+        </a>
+      </div>
+    </div>
+
+    <div class="flex-container">
+      <div class="box4">
+        <a href="#">
+          <img src="./images/SAIJ-logo.png">
+        </a>
+      </div>
+      <div class="box5">
+        <div class="box5-text">
+          <a href="#">
+            <i class="fa-solid fa-book fa-2x"></i>
+            <p>Código Procesal<br> Penal Federal</p>
+          </a>
+        </div>
+      </div>
+      <div class="box6">
+        <div class="box6-text">
+          <a href="#">
+            <i class="fa-solid fa-landmark fa-2x"></i>
+            <p>Digesto Registral</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="flex-container2">
+      <div class="box7">
+        <div class="box-text">
+          <h2>CONSTITUCIONES</h2>
+          <ul>
+            <li><a href="#">C.A.B.A. y Provinciales</a></li>
+            <li><a href="#">Constitución Nacional</a></li>
+            <li><a href="#">Constituciones del resto del mundo</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="box8">
+        <div class="box-text">
+          <h2>CÓDIGOS</h2>
+          <ul>
+            <li><a href="#">Códigos C.A.B.A.</a></li>
+            <li><a href="#">Códigos Nacionales</a></li>
+            <li><a href="#">Códigos Provinciales</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="box9">
+        <div class="box-text">
+          <h2>PROYECTOS Y ANTEPROYECTOS DE LEY DESTACADOS</h2>
+          <ul>
+            <li><a href="#">Ver anteproyectos</a></li>
+            <li><a href="#">Ver proyectos</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="box10">
+        <div class="box-text">
+          <h2>RECOPILACIONES TEMÁTICAS</h2>
+          <ul>
+            <li><a href="#">Ver Listado</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="box11">
+        <div class="box-text">
+          <h2>ADMINISTRACIÓN PÚBLICA NACIONAL</h2>
+          <ul>
+            <li><a href="#">Empleo Público</a></li>
+            <li><a href="#">Estructuras</a></li>
+            <li><a href="#">Índice de la Adm. Pública Nacional</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="box12">
+        <div class="box-text">
+          <h2>SIMPLIFICACIÓN Y DESBUROCRATIZACIÓN (SyD)</h2>
+          <ul>
+            <li><a href="#">Normativa SyD</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="box13">
+        <div class="box-text">
+          <h2>SISTEMA DE GESTIÓN DOCUMENTAL ELECTRÓNICA (GDE)</h2>
+          <ul>
+            <li><a href="#">Normativa GDE: Marco legal</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="box14">
+        <div class="box-text">
+          <h2>OFICINA NACIONAL DE CONTRATACIONES</h2>
+          <ul>
+            <li><a href="#">Contrataciones de Bienes y Servicios</a></li>
+            <li><a href="#">Obra Pública</a></li>
+          </ul>
+        </div>
+      </div>
+      
+    </div>
+
+
+
+
+
+    <div class="flex-container">
+      <div class="box15">
+        <div class="box15-text">
+          Por razones de fuerza mayor, la información puede estar momentáneamente desactualizada.
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="footer-infoleg">
+    <div class="footer-flex">
+      <div class="footer1">
+        <p>Ministerio de Justicia y Derechos Humanos de la Nación | Av. España 2591, 3° (C1107AMF), CABA Argentina</p>
+        <p>Tel: +54 (11) 5300-4000 Int. 76807 / 78624 / 78128 / 78408</p>
+      </div>
+
+      <div class="footer2">
+        <p>Los contenidos de infoleg.gob.ar están licenciados bajo <a href="#">Creative Commons Reconocimiento 2.5 Argentina License</a></p>
+        <p>Copyright 2005 <a href="#">infoleg@jus.gob.ar</a> | <a href="#">Aviso Legal</a></p>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+        <div class="footer-name">
+          <p>© Portfolio Sample by Eleonora Rodriguez, <script>document.write(new Date().getFullYear());</script></p>
+        </div>
+  </footer>
+
+  <script type="text/javascript" src="sample-infoleg.js"></script>
+</body>
+</html>
