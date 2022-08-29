@@ -142,6 +142,9 @@ main strong {
     align-items: center;
     gap: 10px 10px;
   }
+  .logo2 img {
+    display: none;
+  }
 }
 
 .nav-container .nav1 {
@@ -311,6 +314,10 @@ main strong {
 .nav3 img {
   margin-bottom: 20px;
   display: block;
+}
+
+.nav3 .logo2 {
+  display: none;
 }
 
 @media screen and (max-height: 450px) {
