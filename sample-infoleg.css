@@ -244,10 +244,7 @@ main strong {
   }
 
   .nav4 i {
-    padding: 25px 15px;
-    color: #003b54;
-    background-color: rgba(255, 255, 255, 0.6);
-    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.6);
     cursor: pointer;
   }
 
