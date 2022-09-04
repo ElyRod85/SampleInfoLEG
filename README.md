@@ -3,7 +3,7 @@
 
 I'm a Front-End Developer and content strategist! 
 
-This is my sample of a [university curriculum page rework](https://elyrod85.github.io/SampleInfoLEG/)!
+This is my sample of a [governmental landing page rework](https://elyrod85.github.io/SampleInfoLEG/)!
 
 
 
