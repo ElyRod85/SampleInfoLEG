@@ -615,6 +615,8 @@ input {
   font-family: 'Noto Sans', sans-serif;
   font-weight: 800;
   font-size: 18px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 
